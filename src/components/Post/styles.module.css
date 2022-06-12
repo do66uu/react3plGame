@@ -1,0 +1,54 @@
+.post {
+    width: 100%;
+    min-height: 25vh;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 20px;
+    background: white;
+    margin-bottom: 20px;
+}
+.post:last-child {
+    margin-bottom: 0;
+}
+
+.post__title {
+    width: 100%;
+    font-size: 12px;
+    padding: 5px 0px 15px;
+}
+
+.post__title h1{
+    font-weight: 700;
+}
+
+.post__content {
+    width: 100%;
+    padding: 5px 0px 15px;
+}
+
+.post__ads {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 30px 5px 0px;
+}
+
+.post__stats {
+
+}
+
+.post__stat:after {
+    content: "❌️";
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+.post__author {
+    color: #0C5C9D
+}
+
+.post__data {
+    opacity: 0.6;
+}
