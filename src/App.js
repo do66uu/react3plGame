@@ -10,9 +10,9 @@ const App = () => {
         <div className="App">
             <Header/>
             <Slider/>
-            {/*<Text disabled>123</Text>*/}
-            {/*<Text italic>123</Text>*/}
-            {/*<Text strong>123</Text>*/}
+            <Text disabled>123</Text>
+            <Text italic>123</Text>
+            <Text strong>123</Text>
             <Footer/>
         </div>
     );
