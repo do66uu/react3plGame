@@ -1,0 +1,18 @@
+.root {
+    padding: 10px 0;
+    font-size: 30px;
+    text-align: center;
+}
+
+.strong {
+    font-weight: 800;
+}
+
+.italic {
+    font-style: italic
+}
+
+.disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
