@@ -8,8 +8,8 @@ const Slider = () => {
         <section className={styles.section}>
             <div className={styles.slider}>
                 <Container className={styles.sliderContent}>
-                    <Heading level={1} black>wow</Heading>
-                    <Heading level={4}>WOW.WOWO.WOWOW</Heading>
+                    <Heading level={1} className={styles.header}>Header</Heading>
+                    <Heading level={2} className={styles.subheader}>SubHeader</Heading>
                     <div className={styles.call}>
                         <button className={styles.button}>Wow</button>
                     </div>
